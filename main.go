@@ -26,6 +26,11 @@ func main() {
 
 	const MAX_LOOP_COUNT = 10
 	for i = 0; i <= MAX_LOOP_COUNT; i++ {
-		fmt.Println("Loop: " + strconv.Itoa(i))
+		fmt.Print("Number " + strconv.Itoa(i))
+		if i < 5 {
+			fmt.Println(" is small number")
+		} else {
+			fmt.Println(" is large number")
+		}
 	}
 }
