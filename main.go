@@ -23,4 +23,9 @@ func main() {
 
 	const c int = 10
 	fmt.Println("c: " + strconv.Itoa(c) + " is a constant and can't be modified")
+
+	const MAX_LOOP_COUNT = 10
+	for i = 0; i <= MAX_LOOP_COUNT; i++ {
+		fmt.Println("Loop: " + strconv.Itoa(i))
+	}
 }
